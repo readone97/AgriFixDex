@@ -44,7 +44,7 @@ const TokenCard = ({ name, symbol, icon, description, price }: TokenCardProps) =
       });
       
       // Create connection to Solana devnet
-      const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
+      const connection = new Connection('https://devnet.sonic.game', 'confirmed');
       
       // Create a simple transaction that transfers a small amount of SOL to simulate token minting
       // In a real application, this would call a token minting program
