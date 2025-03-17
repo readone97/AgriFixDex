@@ -19,7 +19,7 @@ const TokenBalance = ({ className }: TokenBalanceProps) => {
       if (connected && publicKey) {
         try {
           // Fetch SOL balance
-          const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
+          const connection = new Connection('https://devnet.sonic.game', 'confirmed');
           const balance = await connection.getBalance(publicKey);
           setSolBalance(balance / LAMPORTS_PER_SOL);
 
