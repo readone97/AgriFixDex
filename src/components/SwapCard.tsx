@@ -122,8 +122,8 @@ const SwapCard = () => {
     });
 
     try {
-      // Create connection to Solana devnet
-      const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
+      // Create connection to Sonic devnet
+      const connection = new Connection('https://devnet.sonic.game', 'confirmed');
       
       // Since we don't have actual token programs for our mock tokens,
       // we'll simulate a transaction by sending a very small amount of SOL to demonstrate
